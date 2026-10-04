@@ -77,6 +77,15 @@ VALUES
     '2026-05-08 16:08:55'
 );
 
+INSERT INTO `users`
+(`username`, `full_name`, `password`, `position`)
+VALUES
+(
+    'staff',
+    'Staff User',
+    '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi',
+    'STAFF'
+);
 -- =========================================================
 -- TABLE: test_records
 -- =========================================================
